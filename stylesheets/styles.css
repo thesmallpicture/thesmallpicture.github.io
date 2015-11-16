@@ -1,4 +1,4 @@
-html {
+page {
   border-top:10px solid black;
 }
 
@@ -131,20 +131,16 @@ code, pre {
 pre {
   padding:8px 15px;
   background: #f8f8f8;
-  border-radius:5px;
-  border:1px solid #e5e5e5;
   overflow-x: auto;
 }
 
 table {
   width:100%;
-  border-collapse:collapse;
 }
 
 th, td {
   text-align:left;
   padding:5px 10px;
-  border-bottom:1px solid #e5e5e5;
 }
 
 dt {
@@ -172,24 +168,19 @@ header ul {
   height:40px;
   padding:0;
   background: #f4f4f4;
-  border-radius:5px;
-  border:1px solid #e0e0e0;
   width:270px;
 }
 
 header li {
   width:89px;
   float:left;
-  border-right:1px solid #e0e0e0;
   height:40px;
 }
 
 header li:first-child a {
-  border-radius:5px 0 0 5px;
 }
 
 header li:last-child a {
-  border-radius:0 5px 5px 0;
 }
 
 header ul a {
